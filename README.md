@@ -1,12 +1,12 @@
-# 🔁 Unit Converter (CS50R Final Project)
+# Unit Converter (CS50R Final Project)
 
 A lightweight R package for converting between common units of temperature, length, and weight. Designed for clarity, ease of use, and reliability — with unit tests and full documentation.
 
-> 🧪 Final project for [CS50’s Introduction to Programming with R](https://cs50.harvard.edu/r/).
+> Final project for [CS50’s Introduction to Programming with R](https://cs50.harvard.edu/r/).
 
 ---
 
-## 📦 Functions Provided
+## Functions Provided
 
 | Function       | Description                            | Example       |
 |----------------|----------------------------------------|----------------|
@@ -24,7 +24,7 @@ Each function checks for:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Unit tests are provided using the `testthat` framework. Run all tests using:
 
@@ -39,7 +39,7 @@ Test coverage includes:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 unitconverter/
 ├── R/                   # Source functions (e.g., C_to_F.R)
@@ -53,7 +53,7 @@ unitconverter/
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 You can load the functions into your R session as follows:
 ```r
@@ -70,7 +70,7 @@ kg_to_lbs(70)
 
 ---
 
-## 🔧 Example Output
+## Example Output
 ```r
 > C_to_F(100)
 [1] "212 °F"
@@ -84,7 +84,7 @@ kg_to_lbs(70)
 
 ---
 
-## 📌 What I Learned
+## What I Learned
 - How to write modular, reusable R functions
 - Robust input validation and error handling
 - Documenting with .Rd files
@@ -94,7 +94,7 @@ kg_to_lbs(70)
 
 ---
 
-## 📄 License
+## License
 MIT
 
 ---
